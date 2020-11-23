@@ -12,5 +12,6 @@ def findClosestElements(arr,k,x):
 
 arr=[1,2,3,4,5]
 k=3
-x=8
-print(findClosestElements(arr,k,x))
+x=4
+findClosestElements(arr,k,x)
+#使用二分查找不断缩小所需数字范围
