@@ -1,6 +1,6 @@
 """
 完全二叉树的节点个数
-BFS
+DFS
 中等
 python 中没有null；用None来代替
 """
