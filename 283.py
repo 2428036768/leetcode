@@ -1,7 +1,7 @@
 """
     简单：移动零
     双指针
-    """
+"""
 
 
 def moveZeroes(nums):
