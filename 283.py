@@ -19,7 +19,7 @@ def moveZeroes(nums):
         right+=1
     return nums
 
-print(moveZeroes( [3,12]))
+print(moveZeroes( [0,3,12]))
 
 
 #官方题解
