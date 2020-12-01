@@ -6,8 +6,8 @@
 import math
 
 def searchRange(nums,target):
-    leftAns=binarySearch(nums,target,True)
-    rightAns=binarySearch(nums,target,False)-1
+    leftAns=binarySearch(nums,target,True)     #查找左边界
+    rightAns=binarySearch(nums,target,False)-1   #查找右边界
     print(leftAns)
     print(rightAns)
     if leftAns<=rightAns and rightAns<len(nums) and nums[leftAns]==target and nums[rightAns]==target:
@@ -15,6 +15,7 @@ def searchRange(nums,target):
     else:
         return [-1,-1]
 
+#lower  bool参数，用于判断查找的是左边界还是有边界
 def binarySearch(nums,target,lower):
     right=len(nums)-1
     left=0
