@@ -1,3 +1,9 @@
+"""
+回溯+剪枝
+抄的抄的
+
+中等
+"""
 class Solution:
     def splitIntoFibonacci(self, S: str) -> List[int]:
         ans = list()
