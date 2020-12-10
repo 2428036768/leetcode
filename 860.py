@@ -20,6 +20,6 @@ def lemonadeChange(bills):
             return False
     return True
 
-bills = [5,10,20]
+bills = [5,5,10,20]
 print(lemonadeChange(bills))
             
